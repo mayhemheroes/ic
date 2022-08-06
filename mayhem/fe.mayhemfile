@@ -1,0 +1,7 @@
+project: ic
+target: fe
+
+cmds:
+  - cmd: /fe
+  - cmd: /fe_no_inst @@
+    libfuzzer: false

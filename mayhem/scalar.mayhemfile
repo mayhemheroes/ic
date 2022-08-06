@@ -1,0 +1,7 @@
+project: ic
+target: scalar
+
+cmds:
+  - cmd: /scalar
+  - cmd: /scalar_no_inst @@
+    libfuzzer: false
