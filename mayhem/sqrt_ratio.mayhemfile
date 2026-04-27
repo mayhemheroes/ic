@@ -1,0 +1,7 @@
+project: ic
+target: sqrt-ratio
+
+cmds:
+  - cmd: /sqrt_ratio
+  - cmd: /sqrt_ratio_no_inst @@
+    libfuzzer: false
